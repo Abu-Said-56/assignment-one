@@ -1,0 +1,88 @@
+/* first page */
+.mid{
+color: #FFFFFF;
+padding-top: 150px;
+text-align: center;
+font-size: 30px;
+opacity: 1;
+}
+.mid-title{
+    opacity: 1;
+color: #ffffff;
+padding-left: 362px;
+font-size: 72px;
+width: 630px;
+height: 120px;
+text-align: center;
+}
+/* second section....... */
+.second-div{
+width: 1600px;
+height: 835px;
+background:antiquewhite;
+}
+.title-percent{
+color: #F00;
+text-align: center;
+font-size: 60px;
+/* font-weight: 500; */
+padding-bottom: 0;
+padding-top: 30px;
+/* margin-top: 2px; */
+}
+.title-sml{
+    color: #F00;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+height: 10px;
+padding-bottom: 0;
+}
+.title-mid{
+color: #070211;
+text-align: center;
+padding-bottom: 0;
+font-size: 35px;
+font-weight: 700;
+}
+.img{
+    text-align: center;
+}
+/* Third section...... */
+.third-sec{
+    display: flex;
+    gap: 50px;
+}
+.third-div{
+    background-image: url("image/resources/Vectorrr.png");
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px 140px 140px 50px;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.third-head{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+}
+.third-pra{
+    color: rgba(255, 255, 255, 0.80);
+    width: 697px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.first-btn{
+    color: #FFFFFF;
+    background-color: tomato;
+    text-align: center;
+    font-size: 20px; 
+    font-weight: 700;
+    height: 50px;
+    width: 150px;
+}
