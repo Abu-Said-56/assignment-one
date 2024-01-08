@@ -101,3 +101,26 @@ height: 50px;
     padding-top: 68px;
     padding-right: 145px;
 }
+/* fourth section */
+.sec-4{
+    width: 1320px;
+height: 482px;
+flex-shrink: 0;
+background-color: rgb(243, 217, 180);
+}
+.div-1{
+    text-align: center;
+    padding: 150px 385px;
+    font-size: 22px;
+}
+.spn-color{
+    color: #F00;
+}
+.sec-btn{
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+padding: 10px 15px;
+border-radius: 5px;
+background: #F00;
+}
