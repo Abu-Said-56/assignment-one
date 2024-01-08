@@ -1,4 +1,10 @@
 /* first page */
+* body{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px 140px 130px 50px;
+} 
 .mid{
 color: #FFFFFF;
 padding-top: 150px;
@@ -50,39 +56,48 @@ font-weight: 700;
 }
 /* Third section...... */
 .third-sec{
-    display: flex;
-    gap: 50px;
-}
-.third-div{
-    background-image: url("image/resources/Vectorrr.png");
-    width: 1320px;
+    margin: 50px;
+    /* background-image: url("image/resources/Vectorrr.png"); */
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url("image/resources/Vectorrr.png");
+    width: 1350px;
+    background-repeat: no-repeat;
     height: 600px;
-    border-radius: 16px;
-    margin: 50px 140px 140px 50px;
     fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
+
 .third-head{
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
-    width: 642px;
+    font-weight: 800;
+    width: 600px;
+    padding-left: 126px;
+    padding-top: 50px;
+   margin-top: 50px;
 }
-.third-pra{
-    color: rgba(255, 255, 255, 0.80);
+.third-pra-heading{
+    color: #FFFFFF;
     width: 697px;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+   font-size: 18px;
+   font-weight: 500;
+   padding-left: 126px;
 }
 .first-btn{
-    color: #FFFFFF;
+    color: white;
     background-color: tomato;
-    text-align: center;
-    font-size: 20px; 
-    font-weight: 700;
-    height: 50px;
-    width: 150px;
+font-size: 25px;
+border: 0;
+margin-left: 126px;
+width: 130px;
+height: 50px;
+}
+.first1-body{
+    display: flex;
+
+}
+.images{
+    color: gold;
+    width: 319.83px;
+    height: 464.662px;
+    padding-top: 68px;
+    padding-right: 145px;
 }
