@@ -261,6 +261,7 @@
 .sec-8-third-div {
     display: flex;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .abtn {
@@ -278,4 +279,28 @@
     height: 50px;
     width: 130px;
     border-radius: 0px 50px 50px 0px;
+    
+}
+
+/* last pera */
+.last-sec{
+    margin-top: 70px;
+    background-color: #070211;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+.ftp {
+    color: #FFFFFF;
+    width: 375px;
+    font-size: 20px;
+    padding: 100px 0 0 140px;
+}
+/* .world{
+    color: #FFFFFF;
+} */
+.num{
+    color: #FFFFFF;
+}
+.two{
+    color: #FFFFFF;
 }
