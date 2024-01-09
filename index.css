@@ -1,4 +1,3 @@
-/* first page */
 * body {
     width: 1320px;
     height: 600px;
@@ -24,7 +23,7 @@
 
 /* second section....... */
 .second-div {
-    width: 1600px;
+    width: 1320px;
     height: 835px;
     background: antiquewhite;
 }
@@ -62,10 +61,10 @@
 
 /* Third section...... */
 .third-sec {
-    margin: 50px;
+    margin-top: 50px;
     /* background-image: url("image/resources/Vectorrr.png"); */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("image/resources/Vectorrr.png");
-    width: 1350px;
+    width: 1320px;
     background-repeat: no-repeat;
     height: 600px;
     fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -106,8 +105,8 @@
 
 .images {
     color: gold;
-    width: 319.83px;
-    height: 464.662px;
+    width: 320px;
+    height: 464px;
     padding-top: 68px;
     padding-right: 145px;
 }
@@ -142,9 +141,13 @@
 
 /* section-five */
 .sec5-div {
-    margin-top: 70px;
+    margin-top: 50px;
     display: flex;
     gap: 10px;
+    /* background-color: rgb(253, 250, 247); */
+}
+.sec-5{
+    background-color: rgb(253, 250, 247);
 }
 
 .sp {
@@ -167,50 +170,63 @@
     border-radius: 100%;
 }
 
-/* section-six
-
-.div-tit{
+/* section-six */
+.div-6{
+    width: 1600px;
+height: 7335px;
+}
+.section-six{
     margin-top: 120px;
     text-align: center;
+    height: 600px;
+    width: 1320px;
 }
-.div01{
+.function-sixe{
     font-size: 24px; 
 }
-.div-t{
+.holiiday-title{
     font-size: 50px;
 }
-.div03{
+.holiday-paragrapg{
     width: 700px;
     text-align: center;  
     padding-left: 276px;
+    padding-bottom: 100px;
 }
-.lower{
-    display: flex;
-    gap: 10px;
-    background-image: url("image/resources/Rectangle 2.png");
+.holiday-three-image{
     background-repeat: no-repeat;
-   background-position: bottom;
-   background-color: #FFFFFF;
+    background-position: bottom;
 }
 .pic1{
-    padding-right: 0px;
+    width: 580px;
+    height: 433px;
+    flex-shrink: 2;
 }
 .pic2{
-    justify-content: right bottom;
-    padding-bottom: 230px;
-    padding-right: 200px;
+ height: 250px;
+ width: 310px;
+ padding-bottom: 50px;
+ overflow-x: -50%;
 }
-/* .pic3{
-    justify-content: left bottom;
-    padding-bottom: 230px;
-    padding-right: 200px;
-} */
+.pic3{
+position: relative;
+width: 420px;
+height: 433px;
+padding-right: 0;
+padding-bottom: 0;
+}
+.pic4{
+
+    background-position: bottom;
+}
 
 /* Section seven */
 .portfolieo {
-    margin-top: 100px;
+    margin-top: 50px;
 }
-
+.sec-7{
+    background-color: rgb(250, 245, 238);
+}
 .title {
     color: #F00;
     font-size: 22px;
@@ -218,7 +234,6 @@
 
 .title-2 {
     color: #070211;
-    font-family: Merriweather;
     font-size: 42px;
 }
 
@@ -229,18 +244,22 @@
 }
 
 .first-three-image {
-    padding-right: 5px;
+    /* padding-right: 5px; */
     padding-bottom: 5px;
+    display: flex;
+    gap: 5px;
 }
 
 .second-three-image {
-    padding-right: 5px;
+    /* padding-right: 5px; */
     padding-bottom: 5px;
+    display: flex;
+    gap: 5px;
 }
 
 /* section eight */
 .sec-8-first-div {
-    margin-top: 100px;
+    margin-top: 50px;
     padding-top: 80px;
     text-align: center;
 }
@@ -266,11 +285,12 @@
 }
 
 .abtn {
+    text-align: center;
     margin-left: 492px;
     background-color: #FFFFFF;
-    height: 50px;
+    height: 48px;
     width: 230px;
-    border-radius: 50px 0px 0px 50px;
+    border-radius: 40px 0px 0px 40px;
     border: 0;
 }
 
@@ -279,13 +299,15 @@
     background-color: #F00;
     height: 50px;
     width: 130px;
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 0px 40px 40px 0px;
 
 }
 
 /* last pera */
 .fotter-part {
     background-color: #070211;
+    margin-top: 50px;
+    padding-bottom: 70px;
 }
 .footer-first{
     display: flex;
@@ -298,10 +320,7 @@
     padding-left: 120px;
     padding-top: 100px;
 }
-/* .footer-2{
-    padding-left: 120px;
-    padding-top: 120px;
-} */
+
 .footrt-2{
     padding-right: 400px;
     padding-top: 120px;
@@ -314,4 +333,29 @@
 .world{
     color: #FFF;
     display: flex;
+}
+.social-midea{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social-midea-img{
+    padding: 10px;
+}
+.reserved{
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.cpy-write{
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.unsbs-poss{
+    color: #FFF;
+    padding-right: 140px;
+    padding-top: 50px;
+    font-size: 18px;
+    background-color: #070211;
+    border: 0;
 }
