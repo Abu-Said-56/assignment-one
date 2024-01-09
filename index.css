@@ -177,11 +177,11 @@ height: 600px;
 background-color: rgb(237, 171, 41);
 } */
 .section-six{
-    margin-top: 120px;
+    margin-top: 50px;
     text-align: center;
     height: 600px;
     width: 1320px;
-    background-color: rgb(237, 233, 225);
+    background-color: rgb(253, 250, 247);
     position: relative;
 }
 .function-sixe{
@@ -196,7 +196,9 @@ background-color: rgb(237, 171, 41);
     padding-left: 276px;
     
 }
-
+.holiday-three-image{
+    background-color: rgb(253, 250, 247);
+}
 .pic1{
     width: 580px;
     height: 433px;
@@ -218,7 +220,7 @@ height: 433px;
     margin-top: 50px;
 }
 .sec-7{
-    background-color: rgb(250, 245, 238);
+   background-color: rgb(249, 249, 240);;
 }
 .title {
     color: #F00;
