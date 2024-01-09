@@ -170,16 +170,18 @@
     border-radius: 100%;
 }
 
-/* section-six */
-.div-6{
+/* section-six ........*/
+/* .sec-6{
     width: 1600px;
-height: 7335px;
-}
+height: 600px;
+background-color: rgb(237, 171, 41);
+} */
 .section-six{
     margin-top: 120px;
     text-align: center;
     height: 600px;
     width: 1320px;
+    background-color: rgb(237, 233, 225);
 }
 .function-sixe{
     font-size: 24px; 
